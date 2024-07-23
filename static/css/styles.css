@@ -1,0 +1,46 @@
+.air-max-home{
+    transform: scaleX(-1);
+}
+
+.title {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.subtitle {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.img-home {
+    display: inline-block;
+    position: relative;
+   
+}
+
+.img-home img {
+    position: absolute;
+    top: -30px;
+}
+
+.img-home figcaption {
+    color: #e7e4e4;
+    position: absolute;
+    font-size: 200px;
+    font-weight: 200;
+    line-height: 200px;
+    top: -40px;
+    left: 70px;
+}
+
+.circle {
+   display: inline-block;
+   position: absolute;
+   top: -25px;
+   right: 65px;
+   background: #f0f0f0;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+
+}
